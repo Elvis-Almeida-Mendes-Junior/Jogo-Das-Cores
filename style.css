@@ -1,0 +1,38 @@
+*{
+    font-family: 'Fira Code';
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5C9F97;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-color: #ECF0F1;
+}
+.rgb{
+    text-align: center;
+    margin:40px;
+}
+h3{
+    text-align: center;
+    padding: 50px;
+}
+button{
+    height: 150px;
+    width: 150px;
+    background-color:white; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
